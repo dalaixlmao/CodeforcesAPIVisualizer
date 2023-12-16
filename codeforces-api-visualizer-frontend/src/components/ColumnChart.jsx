@@ -11,8 +11,8 @@ function ColumnChart({ chartData, title }) {
         <Chart
           className="columnchart"
           chartType="ColumnChart"
-          width={"64.75rem"}
-          height={"37.125rem"}
+          width={"70vw"}
+          height={"50vh"}
           data={chartData}
           options={{
             hAxis: { title: "Number of Questions Solved", minValue: 0 },

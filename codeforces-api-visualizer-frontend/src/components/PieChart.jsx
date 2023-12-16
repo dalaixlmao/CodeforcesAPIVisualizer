@@ -9,7 +9,7 @@ function PieChart({ chartData, title }) {
       <h2>{title}</h2>
       <Chart
         chartType="PieChart"
-        width={'100%'}
+        width={'70vw'}
         height={'400px'}
         data={chartData}
         options={{
