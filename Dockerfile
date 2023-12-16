@@ -1,5 +1,5 @@
 # Use a minimal Node.js image as the base image
-FROM node:14-alpine
+FROM node:20
 
 # Set the working directory inside the container
 WORKDIR /codeforces-api-visualizer-backend
