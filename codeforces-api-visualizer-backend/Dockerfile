@@ -3,7 +3,7 @@ FROM node:20
 
 # Set the working directory inside the container
 WORKDIR /codeforces-api-visualizer-backend
-# Copy only the necessary files into the container
+
 COPY server.js package.json package-lock.json ./
 
 # Install production dependencies
