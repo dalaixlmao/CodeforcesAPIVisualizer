@@ -41,11 +41,11 @@ This is a Codeforces dashboard application that allows users to track their Code
 
 4. Start the frontend and backend servers:
 
-   - For frontend:
+- For frontend:
     ```bash
     npm run dev
-    
-  - For backend:
+
+- For backend:
     ```bash
     node server.js
 
