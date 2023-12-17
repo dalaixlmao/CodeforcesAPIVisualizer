@@ -25,6 +25,7 @@ app.post('/codeforces', async (req, res) => {
 async function getCodeforcesData(handle) {
   try {
     const response = await axios.get(`https://codeforces.com/api/user.info?handles=${handle}`);
+    console.log(response.data);
     return response.data;
   } catch (error) {
     console.error(error);
